@@ -70,3 +70,9 @@ In the analysis, results will be described as associations (â€œconsistent withâ€
 - Estimate the posterior distribution of the main change point and before/after parameters.
 - Quantify the impact of key events in terms of changes in mean price or returns.
 - Start preparing the Flask backend and React frontend structure for the dashboard as required for the final submission. [file:1]
+
+### Preliminary Change Point Result (Draft)
+
+The Bayesian change point model on daily log returns identifies a main structural break around **[CHANGE_DATE]** (median posterior estimate). Around this date, the average daily log return shifts from approximately **[BEFORE_PCT]%** per day to **[AFTER_PCT]%** per day.
+
+This suggests that after the change point, Brent prices experienced a [stronger/weaker] average drift, together with time-varying volatility seen in the return plots. When this date is compared to the event dataset, it is close to **[EVENT_NAME]** (event type: [EVENT_TYPE]), which is economically plausible as a driver of a structural change in oil markets. However, this temporal alignment indicates association, not definitive causality, given the presence of other potential confounding macroeconomic factors. [web:25][web:26][web:27][web:34]
